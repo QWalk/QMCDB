@@ -1,0 +1,13 @@
+{
+    "qmcdb": {
+        "about": {
+            "description":  "This database contains the production QMCDB data"
+        }
+    },
+
+    "qmcdb_dev": {
+        "about": {
+            "description": "This database represents a development version of the QMCDB database"
+        }
+    }
+}
