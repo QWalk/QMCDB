@@ -1,0 +1,14 @@
+{
+    "admin": {
+        "authdb": ["admin"],
+        "roles": [ { "role": "root", "db": "admin" } ],
+        "users": [ { "username": "admin", "pw": "password" } ] 
+    },
+    "managers": {
+        "authdb": ["qmcdb_dev"],
+        "roles": [ { "role": "dbOwner", "db": "qmcdb_dev" },
+                   { "role": "dbOwner", "db": "qmcdb" } ],
+        "users": [ { "username": "dev", "pw": "password" } ] 
+    }
+
+}
